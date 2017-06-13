@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IDSRoomTablePage">
+            <connections>
+                <outlet property="modeLb" destination="vLh-uQ-mP4" id="3e2-sZ-bU9"/>
+                <outlet property="modeSwith" destination="9kR-nf-CzZ" id="sYa-iU-0ve"/>
+                <outlet property="nRoomNameTf" destination="D5S-Ml-vzF" id="7dK-nb-DwZ"/>
+                <outlet property="roomNameTF" destination="cMy-MR-FKN" id="VNE-m9-i3t"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cMy-MR-FKN">
+                    <rect key="frame" x="16" y="84" width="295" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="CwH-gs-WIs"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="D5S-Ml-vzF">
+                    <rect key="frame" x="16" y="222" width="295" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="cdT-ef-Gl5"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3N-Ci-mbY">
+                    <rect key="frame" x="248" y="149" width="92" height="30"/>
+                    <color key="backgroundColor" red="0.78288026643452924" green="1" blue="0.97584541892285948" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="进入团队语音"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.markToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="doStartGVoiceAction:" destination="-1" eventType="touchUpInside" id="p74-y2-7uP"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SnH-bx-SQI">
+                    <rect key="frame" x="248" y="285" width="92" height="30"/>
+                    <color key="backgroundColor" red="0.78288026639999997" green="1" blue="0.97584541889999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="92" id="0NI-6K-9Fl"/>
+                        <constraint firstAttribute="height" constant="30" id="S3g-NN-i08"/>
+                    </constraints>
+                    <state key="normal" title="进入国战语音"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.markToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="doStartNVoiceAction:" destination="-1" eventType="touchUpInside" id="cKO-Vx-zLq"/>
+                    </connections>
+                </button>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9kR-nf-CzZ">
+                    <rect key="frame" x="16" y="365" width="51" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="49" id="RGF-p8-Zdd"/>
+                        <constraint firstAttribute="height" constant="31" id="uxg-6r-x2C"/>
+                    </constraints>
+                </switch>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="主播角色" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vLh-uQ-mP4">
+                    <rect key="frame" x="16" y="323" width="70" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="9kR-nf-CzZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="20e-Dh-ob4"/>
+                <constraint firstItem="cMy-MR-FKN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="84" id="8Q7-YT-z4c"/>
+                <constraint firstAttribute="trailing" secondItem="D5S-Ml-vzF" secondAttribute="trailing" constant="64" id="9a6-Wi-rrq"/>
+                <constraint firstItem="9kR-nf-CzZ" firstAttribute="top" secondItem="vLh-uQ-mP4" secondAttribute="bottom" constant="21.5" id="OIR-oo-Yrh"/>
+                <constraint firstItem="vLh-uQ-mP4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="PXv-iT-3uG"/>
+                <constraint firstAttribute="trailing" secondItem="SnH-bx-SQI" secondAttribute="trailing" constant="35" id="T03-az-mRR"/>
+                <constraint firstAttribute="trailing" secondItem="Z3N-Ci-mbY" secondAttribute="trailing" constant="35" id="THt-bn-VjA"/>
+                <constraint firstItem="SnH-bx-SQI" firstAttribute="top" secondItem="D5S-Ml-vzF" secondAttribute="bottom" constant="23" id="XFk-41-lcN"/>
+                <constraint firstAttribute="trailing" secondItem="cMy-MR-FKN" secondAttribute="trailing" constant="64" id="XNB-yG-N0a"/>
+                <constraint firstItem="D5S-Ml-vzF" firstAttribute="top" secondItem="Z3N-Ci-mbY" secondAttribute="bottom" constant="43" id="YT9-RW-NIV"/>
+                <constraint firstItem="D5S-Ml-vzF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="c1Z-E9-bPX"/>
+                <constraint firstItem="vLh-uQ-mP4" firstAttribute="top" secondItem="SnH-bx-SQI" secondAttribute="bottom" constant="8" id="cye-Ux-V34"/>
+                <constraint firstItem="Z3N-Ci-mbY" firstAttribute="top" secondItem="cMy-MR-FKN" secondAttribute="bottom" constant="25" id="fzk-f4-j7c"/>
+                <constraint firstItem="cMy-MR-FKN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="wHH-tf-HIr"/>
+            </constraints>
+            <point key="canvasLocation" x="24.5" y="52.5"/>
+        </view>
+    </objects>
+</document>

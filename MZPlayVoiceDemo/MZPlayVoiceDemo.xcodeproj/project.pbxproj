@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D468E931ED7068100EA4689 /* IDSIMVoiceMainPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D468E911ED7068100EA4689 /* IDSIMVoiceMainPage.m */; };
+		4D468E941ED7068100EA4689 /* IDSIMVoiceMainPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D468E921ED7068100EA4689 /* IDSIMVoiceMainPage.xib */; };
+		4DAD052F1EEFB55C005B53F0 /* MZIMVoiceManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4DAD052E1EEFB55C005B53F0 /* MZIMVoiceManager.mm */; };
+		4DAD05321EEFB799005B53F0 /* UIView+MZToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAD05311EEFB799005B53F0 /* UIView+MZToast.m */; };
+		4DB373681EE8F9F90054ABF1 /* IDSRoomTablePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB373661EE8F9F90054ABF1 /* IDSRoomTablePage.m */; };
+		4DB373691EE8F9F90054ABF1 /* IDSRoomTablePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DB373671EE8F9F90054ABF1 /* IDSRoomTablePage.xib */; };
+		4DBAFF731ED555D800742472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAFF721ED555D800742472 /* main.m */; };
+		4DBAFF761ED555D800742472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAFF751ED555D800742472 /* AppDelegate.m */; };
+		4DBAFF791ED555D800742472 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DBAFF781ED555D800742472 /* ViewController.m */; };
+		4DBAFF7C1ED555D800742472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBAFF7A1ED555D800742472 /* Main.storyboard */; };
+		4DBAFF7E1ED555D800742472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DBAFF7D1ED555D800742472 /* Assets.xcassets */; };
+		4DBAFF811ED555D800742472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DBAFF7F1ED555D800742472 /* LaunchScreen.storyboard */; };
+		4DBAFF911ED5563000742472 /* GCloudVoice.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4DBAFF891ED5563000742472 /* GCloudVoice.bundle */; };
+		4DBAFF951ED571F300742472 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBAFF941ED571F300742472 /* SystemConfiguration.framework */; };
+		4DBAFF971ED5720000742472 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBAFF961ED5720000742472 /* CoreTelephony.framework */; };
+		4DBAFF991ED5720C00742472 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBAFF981ED5720C00742472 /* AudioToolbox.framework */; };
+		4DBAFF9B1ED5721100742472 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBAFF9A1ED5721100742472 /* CoreAudio.framework */; };
+		4DBAFF9D1ED5721D00742472 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBAFF9C1ED5721D00742472 /* AVFoundation.framework */; };
+		4DBAFF9F1ED5722A00742472 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DBAFF9E1ED5722A00742472 /* libstdc++.6.0.9.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D468E901ED7068100EA4689 /* IDSIMVoiceMainPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDSIMVoiceMainPage.h; sourceTree = "<group>"; };
+		4D468E911ED7068100EA4689 /* IDSIMVoiceMainPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDSIMVoiceMainPage.m; sourceTree = "<group>"; };
+		4D468E921ED7068100EA4689 /* IDSIMVoiceMainPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IDSIMVoiceMainPage.xib; sourceTree = "<group>"; };
+		4DAD052D1EEFB55C005B53F0 /* MZIMVoiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZIMVoiceManager.h; sourceTree = "<group>"; };
+		4DAD052E1EEFB55C005B53F0 /* MZIMVoiceManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MZIMVoiceManager.mm; sourceTree = "<group>"; };
+		4DAD05301EEFB799005B53F0 /* UIView+MZToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MZToast.h"; sourceTree = "<group>"; };
+		4DAD05311EEFB799005B53F0 /* UIView+MZToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MZToast.m"; sourceTree = "<group>"; };
+		4DB373651EE8F9F90054ABF1 /* IDSRoomTablePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDSRoomTablePage.h; sourceTree = "<group>"; };
+		4DB373661EE8F9F90054ABF1 /* IDSRoomTablePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDSRoomTablePage.m; sourceTree = "<group>"; };
+		4DB373671EE8F9F90054ABF1 /* IDSRoomTablePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IDSRoomTablePage.xib; sourceTree = "<group>"; };
+		4DBAFF6E1ED555D800742472 /* MZPlayVoiceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MZPlayVoiceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DBAFF721ED555D800742472 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DBAFF741ED555D800742472 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DBAFF751ED555D800742472 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DBAFF771ED555D800742472 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4DBAFF781ED555D800742472 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4DBAFF7B1ED555D800742472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DBAFF7D1ED555D800742472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DBAFF801ED555D800742472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DBAFF821ED555D800742472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DBAFF891ED5563000742472 /* GCloudVoice.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GCloudVoice.bundle; sourceTree = "<group>"; };
+		4DBAFF8B1ED5563000742472 /* GCloudVoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCloudVoice.h; sourceTree = "<group>"; };
+		4DBAFF8C1ED5563000742472 /* GCloudVoiceErrno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCloudVoiceErrno.h; sourceTree = "<group>"; };
+		4DBAFF8D1ED5563000742472 /* GCloudVoiceExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCloudVoiceExtension.h; sourceTree = "<group>"; };
+		4DBAFF8E1ED5563000742472 /* GCloudVoiceVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCloudVoiceVersion.h; sourceTree = "<group>"; };
+		4DBAFF941ED571F300742472 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4DBAFF961ED5720000742472 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4DBAFF981ED5720C00742472 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4DBAFF9A1ED5721100742472 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		4DBAFF9C1ED5721D00742472 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4DBAFF9E1ED5722A00742472 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DBAFF6B1ED555D800742472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DBAFF9F1ED5722A00742472 /* libstdc++.6.0.9.tbd in Frameworks */,
+				4DBAFF9D1ED5721D00742472 /* AVFoundation.framework in Frameworks */,
+				4DBAFF9B1ED5721100742472 /* CoreAudio.framework in Frameworks */,
+				4DBAFF991ED5720C00742472 /* AudioToolbox.framework in Frameworks */,
+				4DBAFF971ED5720000742472 /* CoreTelephony.framework in Frameworks */,
+				4DBAFF951ED571F300742472 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D2B22B81ED6DA84002AE9B7 /* GVoiceWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				4DAD052D1EEFB55C005B53F0 /* MZIMVoiceManager.h */,
+				4DAD052E1EEFB55C005B53F0 /* MZIMVoiceManager.mm */,
+			);
+			path = GVoiceWrapper;
+			sourceTree = "<group>";
+		};
+		4DBAFF651ED555D800742472 = {
+			isa = PBXGroup;
+			children = (
+				4DBAFF701ED555D800742472 /* MZPlayVoiceDemo */,
+				4DBAFF6F1ED555D800742472 /* Products */,
+				4DBAFF931ED571F200742472 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DBAFF6F1ED555D800742472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DBAFF6E1ED555D800742472 /* MZPlayVoiceDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DBAFF701ED555D800742472 /* MZPlayVoiceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4DBAFF741ED555D800742472 /* AppDelegate.h */,
+				4DBAFF751ED555D800742472 /* AppDelegate.m */,
+				4DBAFF771ED555D800742472 /* ViewController.h */,
+				4DBAFF781ED555D800742472 /* ViewController.m */,
+				4D468E901ED7068100EA4689 /* IDSIMVoiceMainPage.h */,
+				4D468E911ED7068100EA4689 /* IDSIMVoiceMainPage.m */,
+				4D468E921ED7068100EA4689 /* IDSIMVoiceMainPage.xib */,
+				4DB373651EE8F9F90054ABF1 /* IDSRoomTablePage.h */,
+				4DB373661EE8F9F90054ABF1 /* IDSRoomTablePage.m */,
+				4DB373671EE8F9F90054ABF1 /* IDSRoomTablePage.xib */,
+				4DAD05301EEFB799005B53F0 /* UIView+MZToast.h */,
+				4DAD05311EEFB799005B53F0 /* UIView+MZToast.m */,
+				4DBAFF7A1ED555D800742472 /* Main.storyboard */,
+				4DBAFF7D1ED555D800742472 /* Assets.xcassets */,
+				4DBAFF7F1ED555D800742472 /* LaunchScreen.storyboard */,
+				4DBAFF821ED555D800742472 /* Info.plist */,
+				4D2B22B81ED6DA84002AE9B7 /* GVoiceWrapper */,
+				4DBAFF881ED5563000742472 /* GVoice */,
+				4DBAFF711ED555D800742472 /* Supporting Files */,
+			);
+			name = MZPlayVoiceDemo;
+			path = WePlayVoiceDemo;
+			sourceTree = "<group>";
+		};
+		4DBAFF711ED555D800742472 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DBAFF721ED555D800742472 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DBAFF881ED5563000742472 /* GVoice */ = {
+			isa = PBXGroup;
+			children = (
+				4DBAFF891ED5563000742472 /* GCloudVoice.bundle */,
+				4DBAFF8A1ED5563000742472 /* include */,
+				4DBAFF8F1ED5563000742472 /* libs */,
+			);
+			path = GVoice;
+			sourceTree = "<group>";
+		};
+		4DBAFF8A1ED5563000742472 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				4DBAFF8B1ED5563000742472 /* GCloudVoice.h */,
+				4DBAFF8C1ED5563000742472 /* GCloudVoiceErrno.h */,
+				4DBAFF8D1ED5563000742472 /* GCloudVoiceExtension.h */,
+				4DBAFF8E1ED5563000742472 /* GCloudVoiceVersion.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		4DBAFF8F1ED5563000742472 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		4DBAFF931ED571F200742472 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DBAFF9E1ED5722A00742472 /* libstdc++.6.0.9.tbd */,
+				4DBAFF9C1ED5721D00742472 /* AVFoundation.framework */,
+				4DBAFF9A1ED5721100742472 /* CoreAudio.framework */,
+				4DBAFF981ED5720C00742472 /* AudioToolbox.framework */,
+				4DBAFF961ED5720000742472 /* CoreTelephony.framework */,
+				4DBAFF941ED571F300742472 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DBAFF6D1ED555D800742472 /* MZPlayVoiceDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DBAFF851ED555D800742472 /* Build configuration list for PBXNativeTarget "MZPlayVoiceDemo" */;
+			buildPhases = (
+				4DBAFF6A1ED555D800742472 /* Sources */,
+				4DBAFF6B1ED555D800742472 /* Frameworks */,
+				4DBAFF6C1ED555D800742472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MZPlayVoiceDemo;
+			productName = WePlayVoiceDemo;
+			productReference = 4DBAFF6E1ED555D800742472 /* MZPlayVoiceDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DBAFF661ED555D800742472 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = veryitman;
+				TargetAttributes = {
+					4DBAFF6D1ED555D800742472 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GR78TT232F;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4DBAFF691ED555D800742472 /* Build configuration list for PBXProject "MZPlayVoiceDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DBAFF651ED555D800742472;
+			productRefGroup = 4DBAFF6F1ED555D800742472 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DBAFF6D1ED555D800742472 /* MZPlayVoiceDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DBAFF6C1ED555D800742472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D468E941ED7068100EA4689 /* IDSIMVoiceMainPage.xib in Resources */,
+				4DBAFF811ED555D800742472 /* LaunchScreen.storyboard in Resources */,
+				4DBAFF7E1ED555D800742472 /* Assets.xcassets in Resources */,
+				4DB373691EE8F9F90054ABF1 /* IDSRoomTablePage.xib in Resources */,
+				4DBAFF911ED5563000742472 /* GCloudVoice.bundle in Resources */,
+				4DBAFF7C1ED555D800742472 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DBAFF6A1ED555D800742472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAD052F1EEFB55C005B53F0 /* MZIMVoiceManager.mm in Sources */,
+				4DBAFF791ED555D800742472 /* ViewController.m in Sources */,
+				4D468E931ED7068100EA4689 /* IDSIMVoiceMainPage.m in Sources */,
+				4DBAFF761ED555D800742472 /* AppDelegate.m in Sources */,
+				4DBAFF731ED555D800742472 /* main.m in Sources */,
+				4DAD05321EEFB799005B53F0 /* UIView+MZToast.m in Sources */,
+				4DB373681EE8F9F90054ABF1 /* IDSRoomTablePage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DBAFF7A1ED555D800742472 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DBAFF7B1ED555D800742472 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DBAFF7F1ED555D800742472 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DBAFF801ED555D800742472 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DBAFF831ED555D800742472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DBAFF841ED555D800742472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DBAFF861ED555D800742472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GR78TT232F;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/WePlayVoiceDemo/GVoice/include";
+				INFOPLIST_FILE = WePlayVoiceDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WePlayVoiceDemo/GVoice/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veryitman.weplay.voice.WePlayVoiceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DBAFF871ED555D800742472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GR78TT232F;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/WePlayVoiceDemo/GVoice/include";
+				INFOPLIST_FILE = WePlayVoiceDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WePlayVoiceDemo/GVoice/libs",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.veryitman.weplay.voice.WePlayVoiceDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DBAFF691ED555D800742472 /* Build configuration list for PBXProject "MZPlayVoiceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBAFF831ED555D800742472 /* Debug */,
+				4DBAFF841ED555D800742472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DBAFF851ED555D800742472 /* Build configuration list for PBXNativeTarget "MZPlayVoiceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DBAFF861ED555D800742472 /* Debug */,
+				4DBAFF871ED555D800742472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DBAFF661ED555D800742472 /* Project object */;
+}
