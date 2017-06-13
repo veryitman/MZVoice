@@ -10,10 +10,10 @@ Base GVoice
 
 4. 配置权限
 
-详见 info.plist
+	详见 info.plist
 
 5. 后台播放
 
-详见 `AppDelegate.m`.
+	详见 `AppDelegate.m`.
 
 
