@@ -1,6 +1,7 @@
-# MZVoice
 
-Base GVoice
+MZVoice
+
+基于 GVoice 语音 SDK 实现的.
 
 1. `MZIMVoiceManager` 是针对 GVoice SDK 的 OC 封装.
 
